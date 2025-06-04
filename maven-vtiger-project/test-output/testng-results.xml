@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-03T15:39:48 IST" name="Default suite" finished-at="2025-06-03T15:40:05 IST" duration-ms="17197">
+    <groups>
+    </groups>
+    <test started-at="2025-06-03T15:39:48 IST" name="Default test" finished-at="2025-06-03T15:40:05 IST" duration-ms="17197">
+      <class name="Base_Utility.SourceDemo">
+        <test-method signature="getDetails(java.lang.String,java.lang.String)[pri:0, instance:Base_Utility.SourceDemo@543295b0]" started-at="2025-06-03T15:39:48 IST" name="getDetails" data-provider="getData" finished-at="2025-06-03T15:39:52 IST" duration-ms="4432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDetails -->
+        <test-method signature="getDetails(java.lang.String,java.lang.String)[pri:0, instance:Base_Utility.SourceDemo@543295b0]" started-at="2025-06-03T15:39:52 IST" name="getDetails" data-provider="getData" finished-at="2025-06-03T15:39:54 IST" duration-ms="2339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDetails -->
+        <test-method signature="getDetails(java.lang.String,java.lang.String)[pri:0, instance:Base_Utility.SourceDemo@543295b0]" started-at="2025-06-03T15:39:54 IST" name="getDetails" data-provider="getData" finished-at="2025-06-03T15:39:57 IST" duration-ms="2346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDetails -->
+        <test-method signature="getDetails(java.lang.String,java.lang.String)[pri:0, instance:Base_Utility.SourceDemo@543295b0]" started-at="2025-06-03T15:39:57 IST" name="getDetails" data-provider="getData" finished-at="2025-06-03T15:40:05 IST" duration-ms="8008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDetails -->
+      </class> <!-- Base_Utility.SourceDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
